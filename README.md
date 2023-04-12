@@ -11,18 +11,10 @@ The package simply provides a `GForms` facade that acts as a wrapper to the [kyl
 You can install this package via Composer using:
 
 ```bash
-composer require kylewlawrence/gravity-forms-api-client-php
+composer require kylewlawrence/gravity-forms-laravel
 ```
 
-If you want to make use of the facade you must install it as well.
-
-```php
-// config/app.php
-'aliases' => [
-    ..
-    'GForms' => KyleWLawrence\GForms\Facades\GForms::class,
-];
-```
+The Facade is automatically installed with the alias `GForms`
 
 ## Configuration
 
