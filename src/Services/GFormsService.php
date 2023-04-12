@@ -16,7 +16,7 @@ class GFormsService
      * @throws Exception
      */
     public function __construct(
-        public $client = (object) [],
+        public ?HttpClient $client = null,
         private string $domain = '',
         private string $username = '',
         private string $password = '',
