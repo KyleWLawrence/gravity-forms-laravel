@@ -12,8 +12,8 @@ return [
     */
 
     'driver' => env('GF_DRIVER', 'api'),
-    'username' => env('GF_USERNAME'),
-    'password' => env('GF_PASSWORD'),
-    'domain' => env('GF_DOMAIN'),
+    'username' => env('GF_USERNAME', ''),
+    'password' => env('GF_PASSWORD', ''),
+    'domain' => env('GF_DOMAIN', ''),
 
 ];
